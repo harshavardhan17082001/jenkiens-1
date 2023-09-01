@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mainpage.css">
+    <style>
+        
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    height: 50px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    background-color:#ebdd6e;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+
+}
+
+
+
+nav b{
+    margin-left: 70px;
+    font-size: 70px;
+
+}
+
+nav select{
+    margin-left: 70px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #f2e264;
+
+}
+nav input{
+    margin-left: 70px;
+    height: 30px;
+    width: 300px;
+    font-size: medium;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #f2e264;
+}
+
+nav button{
+    margin-left: 60px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #f2e264;
+
+}
+
+
+
+
+
+
+
+.offerwithimage{
+    height: 330px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+
+.offers{
+    height: 250px;
+    /* border: 2px solid red; */
+    width: 600px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+
+#coupon{
+    height: 54px;
+    /* border: 2px solid red; */
+    width: 400px;
+    border: 2px dashed black;
+
+}
+
+#coupon input{
+    height: 50px;
+    background-color: antiquewhite;
+    border: none;
+    border-right: 2px solid black;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+#coupon b{
+    padding-left: 10px;
+}
+
+.offers button{
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    background-color: darkorange;
+}
+
+.offers b, button:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+#dishes{
+    height: 400px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color:aliceblue;
+}
+
+#dishes h2{
+    margin: 20px 0px 0px 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#dishesdivisions{
+    height: 280px;
+    /* border: 2px solid red; */
+    width: 1300px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.varieties{
+    height: 280px;
+    /* border: 2px solid red; */
+    width: 180px;
+    border-radius: 85px 85px 0px 0px ;
+}
+
+
+.varieties img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.varieties b{
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.varieties a {
+    text-decoration: none;
+    color: black;
+
+}
+.varieties a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#biryanibackground{
+    background-color: white;
+}
+
+
+
+
+.biryanifood{
+    height: 350px;
+    width: 1200px;
+    /* border: 2px solid red; */
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.biryanivarities{
+    height: 350px;
+    /* border: 2px solid red; */
+    background-color:rgb(202, 228, 217);
+    width: 330px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.biryanivarities:hover{
+    cursor: pointer;
+    box-shadow: rgb(134, 117, 117) 2px  2px 10px; 
+}
+
+.biryanivarities img{
+    width: 330px;
+    height:250px ;
+    border-radius: 20px;
+
+}
+
+.biryanivarities i{
+  
+    margin-left: 200px;
+    background-color: coral;
+    transform: translateY(-20px);
+
+
+}
+
+
+
+
+
+
+#subscribe{
+    height: 310px;
+    width: 560px;
+    margin-left: 450px;
+    padding-left: 40px;
+    background-color:#e2e8f0;
+
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    height: 75px;
+    width: 100vw;
+    background-color: #ebdd6e;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.footertwo{
+    height: 60px;
+    width: 800px;
+    margin-top: 25px;
+    /* border: 2px solid white; */
+}
+
+
+.footerthree{
+    height: 75px;
+    width: 400px;
+    /* border: 2px solid white; */
+}
+
+
+footer div a{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.followus{
+    margin: 10px 0px 0px 160px;
+    width: 230px;
+    height: 40px;
+    justify-content: space-around;
+    /* background-color: white; */
+
+}
+
+
+footer div img{
+    
+    height: 50px ;
+    width: 50px;
+}
+
+
+
+    </style>
+</head>
+<body>
+    
+<nav>
+
+    <b>RSfoodie</b> 
+    <select name="" id="">
+     <option value="Pure Veg"> hggfeg</option>
+     <option value="Andhra">And</option>
+     <option value="Bakery">Bvje</option>
+     <option value="Biryani">dgi</option>
+     <option value="Burger">Burgfyjr</option>
+     <option value="Chinese">Chinese</option>
+     <option value="Ice Creame">Ice Creames</option>
+     <option value="Juices">Juices</option>
+    </select>
+ 
+  
+    <input type="text" placeholder="Search for Restaurant or dish ">
+ 
+    <button>SIGHup</button>
+    <button>LOGin</button>
+
+</nav>
+
+
+
+
+
+<div class="offerwithimage">
+    <div class="offers">
+        <br><br>
+        <h2>Eatsure Offer - Get 25% Off On Eatsure</h2>
+        <br>
+
+        <p>Use Coupon Code:</p>
+        <div id="coupon"><input type="text" placeholder="IC25ra">
+            <b>COPY CODE</b>
+        </div>
+        <br>
+        <button>ORDER NOW</button>
+    </div>
+    <div class="offers">
+        <img src="https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/offer-zone/net-banking/eatsure-offer.jpg" alt="">
+    </div>
+</div>
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+<div id="dishes">
+    <br><br>
+    <h2>Inspiration for your first order</h2>
+    <br><br>
+
+    <div id="dishesdivisions">
+
+        <div class="varieties" id="biryanibackground">
+            <a href="./mainpage.html">
+                <img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="">
+                <br><br>
+                <b>Biryani</b>
+            </a>
+
+        </div>
+        <div class="varieties">
+            <a href="./tiffin.html">
+                <img src="https://b.zmtcdn.com/data/pictures/chains/2/92652/37dd4d6a8f4868843f3c1019859f303c_o2_featured_v2.jpg" alt="" >
+                <br><br>
+                <b>Tiffin</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="./pizza.html">
+                <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="">
+                <br><br>
+                <b>Pizza</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="">
+                <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="">
+                <br><br>
+                <b>Burger</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="">
+                <img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png" alt="">
+                <br><br>
+                <b>Rolls</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="">
+                <img src="https://b.zmtcdn.com/data/o2_assets/4c7697178c268c50e1b1641fca205c231634401116.png" alt="">
+                <br><br>
+                <b>Ice Creame</b>
+            </a>
+        </div>
+
+    </div>
+</div>
+<br><br><br><br>
+
+<div class="biryanifood">
+    <div class="biryanivarities"> 
+        <img src="https://b.zmtcdn.com/data/pictures/4/18588884/27c5c0cb63b92724a3e156e3f43a1300.jpg" alt="">
+        <br>
+        <b>Kinara Grand</b>  <i>₹300 for one</i>
+        <br><br>
+        <p>North Indian, Chinese, Seafood</p>
+    </div>
+    <div class="biryanivarities">
+        <img src="https://b.zmtcdn.com/data/dish_photos/b5e/8f056e90fec89c41627e9a008e4f4b5e.jpg" alt="">
+        <br>
+        <b>Papadams Blue</b>    <i>₹300 for one</i>
+        <br><br>
+        <p>North Indian, Chinese, Mughl</p>
+    </div>
+    <div class="biryanivarities">
+        <img src="https://b.zmtcdn.com/data/dish_photos/d9d/3143c3e257924092c98dc801b024cd9d.jpg?output-format=webp" alt="">
+        <br>
+        <b>Crystal Restaurant & Bar</b> <i>₹300 for one</i>
+        <br><br>
+        <p>North Indian, Mughlai, Seafood, Biryani        </p>
+    </div>
+</div>
+<br><br><br>
+
+
+
+
+
+
+<div class="biryanifood">
+    <div class="biryanivarities"> 
+        <img src="https://b.zmtcdn.com/data/pictures/9/19523889/4e38f5b814e769de90fbfd61a320ad97_featured_v2.jpg?output-format=webp" alt="">
+        <br>
+        <b>Bhagmati Biryani</b>  <i>₹300 for one</i>
+        <br><br>
+        <p>Biryani</p>
+    </div>
+    <div class="biryanivarities">
+        <img src="https://b.zmtcdn.com/data/pictures/8/18527998/ef4274e1c56283aefebfa48eaf416ab2_o2_featured_v2.jpg?output-format=webp" alt="">
+        <br>
+        <b>Nimrah Restaurant</b>    <i>₹300 for one</i>
+        <br><br>
+        <p>Bakery, Fast Food</p>
+    </div>
+    <div class="biryanivarities">
+        <img src="https://b.zmtcdn.com/data/pictures/9/18900799/2c6fdb1bbaf60f11daed673ca6150906_o2_featured_v2.jpg" alt="">
+        <br>
+        <b>Aroma Family Restaurant</b> <i>₹300 for one</i>
+        <br><br>
+        <p>Hyderabadi, North Indian, Chai        </p>
+    </div>
+</div>
+<br><br><br><br>
+
+
+
+
+
+
+
+<div id="subscribe">
+    <br>
+    <h1 style="font-family: 'Roboto', sans-serif;">Newsletter</h1><br>
+    <p style="font-family: 'Roboto', sans-serif;">Subscribe to our newsletter and stay updated with our Food offers.</p><br>
+    <b style="font-family: 'Roboto', sans-serif;">Enter your email address to subscribe*</b><br><br>
+    <input type="text" placeholder="EMAIL" style="height: 40px; width: 405px; padding-left: 20px;">
+    <p>Provide your email address to subscribe. For e.g abc@xyz.com</p>
+    <br>
+    <button style="height: 35px; width: 150px; background-color: darkorange; transform: translateX(250px);">SUBSCRIBE</button>
+
+
+</div>
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="footertwo">
+     <a href="">About</a>
+     <a href="">Privacy</a>
+     <a href="">Terms</a>
+     <a href="">Join user studies</a>
+     <a href="">Feedback</a>
+     <a href="">Help Centre</a>
+    </div>
+    <div class="footerthree">
+        <div class="followus">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/Instagram.svg?dim=32x0" alt="" height=25px" width="30px">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/facebook.svg?dim=32x0" alt="">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/Twitter.svg?dim=32x0" alt="">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/Youtube.svg?dim=32x0" alt="">
+        </div>
+    </div>
+ 
+ </footer>
+
+
+
+
+
+
+</body>
+</html>

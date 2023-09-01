@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurent</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    height: 50px;
+    width: 100vw;
+    /* border: 2px solid black; */
+    background-color:#f2e264;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+
+}
+
+
+nav b{
+    margin-left: 70px;
+    font-size: 70px;
+
+}
+
+nav select{
+    margin-left: 70px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #f2e264;
+
+}
+nav input{
+    margin-left: 70px;
+    height: 30px;
+    width: 300px;
+    font-size: medium;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #f2e264;
+}
+
+nav button{
+    margin-left: 60px;
+    height: 30px;
+    width: 150px;
+    font-size: medium;
+    padding-left: 10px;
+    border-radius: 20px;
+    background-color: #f2e264;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#background{
+    height: 500px;
+    width: 100vw;
+    background-image: url(https://static.tacdn.com/img2/branding/homepage/home-tab3-hero-1367x520-prog.jpg);
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+#background h1{
+    color: white;
+    margin-left: 580px;
+}
+
+#background input{
+    height: 60px;
+    font-size: larger;
+    width: 600px;
+    padding-left: 40px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 450px;
+}
+
+
+
+
+
+#dishes{
+    height: 400px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color:aliceblue;
+}
+
+#dishes h2{
+    margin: 20px 0px 0px 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#dishesdivisions{
+    height: 250px;
+    /* border: 2px solid red; */
+    width: 1300px;
+    margin-left: 120px;
+    display: flex;
+
+}
+
+.varieties{
+    height: 250px;
+    /* border: 2px solid red; */
+    width: 220px;
+}
+
+
+.varieties img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.varieties b{
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.varieties a {
+    text-decoration: none;
+    color: black;
+
+}
+.varieties a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.reviews{
+    height: 200px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.reserve{
+    height: 140px;
+    width: 300px;
+    border: 1px solid rgb(151, 139, 139);
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    align-items: center;
+}
+.reserve img{
+    height: 50px;
+    margin-left: 70px;
+    transform: translateY(-20px);
+
+}
+
+.reserve b{
+    color:#058494;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.watchyoutube{
+    
+    height: 340px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #fef08a;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.youtube{
+    width: 400px;
+    height: 220px;
+    border: 2px solid red;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.youtube iframe{
+    width: 400px;
+    height: 220px;
+}
+
+
+
+
+
+
+
+.timelydelivery{
+    height: 300px;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #fef2f2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.priority{
+    width: 600px;
+    height: 250px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.priority h2{
+    margin-top: 30px;
+
+}
+
+
+
+
+
+.frequently{
+    height: 310px;
+    background-color: white;
+    margin: 30px;
+    box-shadow: rgb(123, 121, 121)  2px 2px 5px;
+
+}
+
+
+
+.questions{
+    width: 90vw;
+    border: none;
+    border-bottom: 2px solid #e2e8f0;
+    margin: 15px 0px -1px 25px;
+    padding-bottom: 5px;
+    font-size:medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 75px;
+    width: 100vw;
+    background-color: #ebdd6e;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.footertwo{
+    height: 60px;
+    width: 800px;
+    margin-top: 25px;
+    /* border: 2px solid white; */
+}
+
+
+.footerthree{
+    height: 75px;
+    width: 400px;
+    /* border: 2px solid white; */
+}
+
+
+footer div a{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.followus{
+    margin: 10px 0px 0px 160px;
+    width: 230px;
+    height: 40px;
+    justify-content: space-around;
+    /* background-color: white; */
+
+}
+
+
+footer div img{
+    
+    height: 50px ;
+    width: 50px;
+
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+<!-- <h1><left><u>PROFILE</u></left></h1> 
+<ul> -->
+  
+
+</ul>   
+<nav>
+
+   <!-- <c>PROFILE</c> -->
+<select name=""id="">
+    <!-- <li><h2><label for="">Name:Harshavardhan.k</label></h2></li>
+    <li><h2><label for="">Batch:Devops(JDDA3) </label></h2></li>
+    <li><h2><label for="">Email.Id:harshavardhank1708@gmail.com</label></h2></li>
+    <li><h2><label for="">concat:8431878866</label></h2></li>
+    <li><h2><label for="">Trainer Name:Akashy Sir</label></h2></li> -->
+    <option value="Pure Veg">PROFILE</option><br>
+    <option value="karnataka">NAME:HARSHAVARDHAN.K</option><br>
+    <option value="Bakery">BATCH CODE:DEVOPS(JDDA3)</option><br>
+    <option value="Biryani">EMAIL ID:harshavardhank1708@gmail.com</option><br>
+    <option value="Burger">TRAINER NAME:AKSHAY SIR</option>
+    <!-- <option value="Chinese">Chinese</option>
+    <option value="Ice Creame">Ice Creames</option>
+    <option value="Juices">Juices</option> -->
+</select>
+
+   
+
+</nav>
+
+<nav>
+   <b>RSfoodie</b> 
+   <select name="" id="">
+    <option value="Pure Veg">Pure Veg</option>
+    <option value="karnataka">karnataka</option>
+    <option value="Bakery">Bakery</option>
+    <option value="Biryani">Biryani</option>
+    <option value="Burger">Burger</option>
+    <option value="Chinese">Chinese</option>
+    <option value="Ice Creame">Ice Creames</option>
+    <option value="Juices">Juices</option>
+   </select>
+
+ 
+   <input type="text" placeholder="Search for Restaurant or dish ">
+
+   <button>SIGHup</button>
+   <button>LOGin</button>
+
+</nav>
+
+
+<div id="background">
+   <br><br><br>
+   <h1 >Find your perfect Recipe</h1>
+   <br><br>
+   <input type="text" placeholder="Search for your Recipes">
+
+
+</div>
+<br><br><br><br>
+
+
+
+<div id="dishes">
+    <br><br>
+    <h2>Inspiration for your first order</h2>
+    <br><br>
+
+    <div id="dishesdivisions">
+
+        <div class="varieties">
+            <a href="./mainpage.html">
+                <img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="">
+                <br><br>
+                <b>Biryani</b>
+            </a>
+
+        </div>
+        <div class="varieties">
+            <a href="./tiffin.html">
+                <img src="https://b.zmtcdn.com/data/pictures/chains/2/92652/37dd4d6a8f4868843f3c1019859f303c_o2_featured_v2.jpg" alt="" >
+                <br><br>
+                <b>Tiffin</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="./pizza.html">
+                <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="">
+                <br><br>
+                <b>Pizza</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="">
+                <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="">
+                <br><br>
+                <b>Burger</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="">
+                <img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png" alt="">
+                <br><br>
+                <b>Rolls</b>
+            </a>
+        </div>
+        <div class="varieties">
+            <a href="">
+                <img src="https://b.zmtcdn.com/data/o2_assets/4c7697178c268c50e1b1641fca205c231634401116.png" alt="">
+                <br><br>
+                <b>Ice Creame</b>
+            </a>
+        </div>
+
+    </div>
+</div>
+<br><br><br><br>
+
+
+
+
+
+
+<div class="reviews">
+    <div class="reserve">
+        <img src="https://static.tacdn.com/img2/branding/homepage/messaging/icons_restaurants_tl_2x.png" alt="">
+        <br>
+
+        <b>Find the best places to eat</b>
+        <br><br>
+
+        <p>1000 Recipes-everything from street food to fine dining</p>
+    </div>
+    <div class="reserve">
+        <img src="https://static.tacdn.com/img2/branding/homepage/messaging/icon_reviews_2x.png" alt=""><br>
+
+        <b>See the latest reviews</b><br>
+        <p>Missions of Recipes reviews and photos from our global travel community</p>
+    </div>
+
+
+    <div class="reserve">
+        <img src="https://static.tacdn.com/img2/branding/homepage/messaging/icon_bookRestaurants_tl_2x.png" alt="">
+        <br>
+
+        <b>Reserve a table</b>
+        <br>
+
+        <p>Make online bookings at restaurants worldwide</p>
+    </div>
+
+</div>
+<br><br><br>
+
+
+
+
+
+
+<h2 style="margin-left: 100px; font-family: 'Roboto', sans-serif;">
+    Watch our food in motion on YouTube
+</h2>
+
+<div class="watchyoutube">
+    
+    <div class="youtube">
+        <iframe src="https://www.youtube.com/embed/95BCU1n268w" frameborder="0"></iframe>
+    </div>
+    <div class="youtube">
+        <iframe src="https://www.youtube.com/embed/jh3rjzQSeQ0" frameborder="0"></iframe>
+    </div>.
+    <div class="youtube">
+        <iframe src="https://www.youtube.com/embed/fcD94e93cCk" frameborder="0"></iframe>
+    </div>
+</div>
+<br><br><br>
+
+
+
+
+
+
+<div class="timelydelivery">
+    <div class="priority">
+        <h2>Timely delivery is a top priority</h2>
+        <br><br>
+
+        <p>We understand the importance of your event and time schedules. 
+            Our primary concern is to get there in time to make your event flow smoothly. 
+            Our delivery staff and partners are trained in handling lunches and platters to ensure a delivery free from defects and on time.
+             Each route is pre-planned and discussed prior to delivery to ensure no surprises. 
+            Trust Good Heart as your box lunch caterer in LA. </p>
+    </div>
+
+    <div class="priority">
+        <img src="https://goodheartcatering.com/web/image/1921/Dependable%20Delivery%20Catering.jpeg" alt="" height="250px">
+    </div>
+</div>
+<br><br>
+
+
+
+
+
+
+
+
+
+<div class="frequently">
+    <h2 style="font-family: 'Roboto', sans-serif; padding: 25px 0px 0px 25px;">Frequently asked questions</h3>
+
+    <div class="line">
+        <select name="" class="questions">
+            <option value="How to order medicines online from Pharmacy?">
+                Do you deliver order near me?
+            </option>
+        </select>
+    </div>
+    <div class="line">
+        <select name="" class="questions">
+            <option value="Is online medicine delivery safe?">
+                Do you deliver order early?
+            </option>
+        </select>
+    </div>
+    <div class="line">
+        <select name="" class="questions">
+            <option value="What kind of Recipe options do you offer?">
+                What kind of Recipe options do you offer?
+            </option>
+        </select>
+    </div>
+    <div class="line">
+        <select name="" class="questions">
+            <option value="Do you have vegan breakfast catering?">
+                Do you have vegan breakfast?
+            </option>
+        </select>
+    </div>
+    <div class="line">
+        <select name="" class="questions">
+            <option value="Does Pharmacy provide home delivery of medicines?">
+                How far in advance should I order?
+            </option>
+        </select>
+    </div>
+
+    
+</div>
+
+
+</div>
+<br><br><br>
+
+
+
+
+
+
+
+
+<footer>
+    <div class="footertwo">
+     <a href="">About</a>
+     <a href="">Privacy</a>
+     <a href="">Terms</a>
+     <a href="">Join user studies</a>
+     <a href="">Feedback</a>
+     <a href="">Help Centre</a>
+    </div>
+    <div class="footerthree">
+        <div class="followus">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/Instagram.svg?dim=32x0" alt="" height=25px" width="30px">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/facebook.svg?dim=32x0" alt="">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/Twitter.svg?dim=32x0" alt="">
+            <img class="midlog" src="https://assets.pharmeasy.in/apothecary/images/Youtube.svg?dim=32x0" alt="">
+        </div>
+    </div>
+ 
+ </footer>
+
+
+
+    
+</body>
+</html>
